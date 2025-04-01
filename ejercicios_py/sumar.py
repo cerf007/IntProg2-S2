@@ -1,0 +1,5 @@
+print("Bienvenido a tu calculadora de suma de numeros ")
+valora = int(input("Ingrese el primer valor "))
+valorb = int(input("Ingrese el segundo valor "))
+suma = int(valora + valorb)
+print("La suma de", valora, "más", valorb, "equivale a", suma)

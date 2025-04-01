@@ -1,0 +1,8 @@
+print("Hola, bienvenido a tu calculadora del pomedio de 5 notas")
+nota1 = float(input("Ingrese el la 1ra nota "))
+nota2 = float(input("Ingrese el la 2da nota "))
+nota3 = float(input("Ingrese el la 3ra nota "))
+nota4 = float(input("Ingrese el la 4ta nota "))
+nota5 = float(input("Ingrese el la 5ta nota "))
+promedio = float((nota1 + nota2 + nota3 + nota4 + nota5)/5)
+print("El promedio resultante de las 5 notas es", promedio)

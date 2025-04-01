@@ -1,0 +1,5 @@
+print("Hola, bienvenido a tu calculadora de divisiones")
+dividendo = float(input("Por favor, ingrese el dividendo "))
+divisor = float(input("Por favor, ingree el valor del divisor "))
+division = float(dividendo / divisor)
+print("El resultado de dividir", dividendo, " entre ", divisor,"es", division)

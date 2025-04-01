@@ -1,0 +1,5 @@
+print("Bienvenido a tu calculadora de dólares a córdobas")
+tasa = float(input("Ingrese el valor equivalente de un dólar en córdobas "))
+cordoba = float(input("Ingrese la cantidad de córdobas a cambiar "))
+dolar = float(cordoba / tasa )
+print("Con una tasa de", tasa,"y con", cordoba, "córdobas a cambiar, en dólares serían ", dolar)

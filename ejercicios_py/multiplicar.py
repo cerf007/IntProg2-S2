@@ -1,0 +1,5 @@
+print("Hola, bienvenidos a tu calculadora de multiplación de números enteros")
+valora= int(input("Por favor, ingrese el primer valor a multiplicar "))
+valorb= int(input("Por favor, ingrese el segundo valor "))
+producto = int(valora * valorb)
+print("El producto de la multiplación de", valora, "por", valorb, "es igual a", producto)

@@ -1,0 +1,7 @@
+print("Hola, bienvenido a tu cajero virtual")
+cantidad = int(input("Digite la cantidad de prducto a llevar "))
+precio = float(input("Digite el precio unitario del producto "))
+pago = float(cantidad * precio)
+descuento = float((pago) * 10/100)
+total = (pago - descuento)
+print("El total a pagar será ", pago, ",pero con con 10 por ciento de descuento sería", total)
